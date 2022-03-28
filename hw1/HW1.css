@@ -1,0 +1,35 @@
+
+@media only screen and (min-width: 1024px) { /* for 電腦 */
+    p{
+        color:black;
+        font-size: 70px;
+        max-width: 100vw;
+    }
+    body{
+        background: red;
+        width: 100vw;
+    };
+}
+@media only screen and (min-width: 320px) and (max-width: 720px) {/*for 手機*/ 
+    #box{
+        max-width: 100vw;
+    }
+    p{
+        color:black;
+        font-size: 30px;
+        max-width: 100vw;
+    }
+    body{
+        background: blue;
+    }
+}
+@media only screen and (min-width: 720px) and (max-width: 1024px){/*for 平板*/
+    p{ 
+        color:black;
+        font-size: 10px;
+        max-width: 100vw;
+    }
+    body{
+        background: green;
+    }
+}
