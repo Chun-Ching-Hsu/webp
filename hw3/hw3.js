@@ -1,7 +1,7 @@
 var s ="";
 var s_time=0;
 var num=0;
-var tmp = "qazwsxedcrfvtgbyhnujmikolp"; 
+var tmp = "QAZWSXEDCRFVTGBYHNUJMIKOLP"; 
 var s_len =0;
 document.addEventListener('keydown',getchar);
 function getchar(lokey){
