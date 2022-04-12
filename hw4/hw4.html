@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-en">
+    <head>
+        <title>HW4_打字機比賽_B0829036_許晴鈞</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, user-scalable = no">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="hw4.css">
+    </head>
+    <body>
+        <div style="top: 20 ;left: 50% ; position: absolute;">
+            <input type="button" value="Start game"  >
+        </div>
+        <div>
+            <button class="context" >
+                遊戲規則說明
+            </button>
+            <div class="text">
+                1.按下statr game後，敲擊鍵盤可產生字母，且字母產生方式為，每次敲擊鍵盤會產生時間差*1.5字母數<br>
+                2.每個賽道必須先刪除賽道最右邊的字母才可以往後刪除，且當賽道1和賽道5皆有字母A時，優先刪除賽道1的A，即賽道越上方，優先級越高。<br>
+                3.當同一賽道，一次產生太多字母圖片時字母圖片會重疊，但最上方的字母優先度最高，要先刪除<br>
+                4.有字母到達最右側，遊戲結束
+            </div>
+        </div>
+        <script src="hw4.js"></script>
+        <div class="trail">
+        </div>
+        <div class="trail">
+        </div>
+        <div class="trail">
+        </div>
+        <div class="trail">
+        </div>
+        <div class="trail">
+        </div>
+        <div class="trail">
+        </div>
+    </body>
+</html>
