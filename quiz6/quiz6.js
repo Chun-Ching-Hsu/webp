@@ -7,15 +7,17 @@ var time = new Date();
 h = time.getHours();
 m = time.getMinutes();
 s = time.getSeconds(); 
-console.log(h);
+//console.log(h);
 setInterval(function run() {
-    func(i++);
+    func(1);
 },1000);
 
 function func(e){
-    s = s+parseInt(e%60);
-    m = m+parseInt(e/60);
-    h = h+parseInt(e/3600);
+    //console.log(s,e);
+    s = parseInt( (s+e)%60 );
+    //console.log(s);
+    m = parseInt((m + s/60) % 60);
+    h = parseInt((h+m/60+s/3600)%24);
     var clocks = h +":"+ m +":" +s;
     console.log(clocks);
     $(".clock").html(clocks);
