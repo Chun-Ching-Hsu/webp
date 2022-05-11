@@ -1,7 +1,5 @@
 const HelloCGU=()=>{
-    var output=[];
-        output.push(<p>Hello 你在哈囉嗎？</p>)
-    return output;
+    return (<h1>Hello 哈囉好嗎？</h1>);
 }
 
 export default HelloCGU;
