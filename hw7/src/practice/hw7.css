@@ -1,0 +1,38 @@
+.login{
+    border: 5px blue solid;
+    width: 500px;
+    height: 200px;
+    margin-top:2%;
+    margin-left: 30%;
+}
+.head{
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: large;
+}
+#sigin{
+    position:relative;
+    /* outline-color:5px blue soild ; */
+    margin-top: 10%;
+    left: 80%;
+    border: 2px blue outset;
+}
+#PW{
+    position: relative;
+    margin-left: 10%;
+}
+#User{
+    position: relative;
+    margin-left: 10%;
+}
+#User-in{
+    position: relative;
+    margin-left:5px;
+    border: 2px blue outset;
+}
+#PW-in{
+    border: 2px blue outset;
+    position: relative;
+    margin-left: 20px;
+}
