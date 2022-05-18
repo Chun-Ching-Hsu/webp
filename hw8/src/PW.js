@@ -11,7 +11,7 @@ function PW(){
             type="password"
             id="password"
             autoComplete="current-password"
-      >輸入密碼</TextField>
+        />
     );
 }
 
