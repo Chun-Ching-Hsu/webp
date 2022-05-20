@@ -32,16 +32,17 @@ function delete_ch(lokey){
 function creat_s(){ 
     let num=[] ;
     let total_s = get_t()*1.5;
+    let target = Math.floor(Math.random()*6)
     for( let s=0 ; s<total_s-s ; s++){
-        for (let i=0 ; i<=5 ; i++){
-            num[i] = Math.floor(Math.random()*25); 
-        }
-        for (let x = 0 ; x <=5 ; x++){
+        // for (let i=0 ; i<=5 ; i++){
+            num[target] = Math.floor(Math.random()*25); 
+        // }
+        //for (let x = 0 ; x <=5 ; x++){
             let newNode =  document.createElement("img"); 
-            newNode.src="alpha/"+num[x]+".png";
+            newNode.src="alpha/"+num[target]+".png";
             newNode.style.zIndex=count;
-            $(".trail")[x].append(newNode);
-        }
+            $(".trail")[target].append(newNode);
+        //}
         count--;
     }
     move();
