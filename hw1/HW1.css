@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 1024px) { /* for ¹q¸£ */
+@media only screen and (min-width: 1024px) { /* for ï¿½qï¿½ï¿½ */
     p{
         color:black;
         font-size: 70px;
@@ -10,7 +10,7 @@
         width: 100vw;
     };
 }
-@media only screen and (min-width: 320px) and (max-width: 720px) {/*for ¤â¾÷*/ 
+@media only screen and (min-width: 320px) and (max-width: 720px) {/*for ï¿½ï¿½ï¿½*/ 
     #box{
         max-width: 100vw;
     }
@@ -23,7 +23,7 @@
         background: blue;
     }
 }
-@media only screen and (min-width: 720px) and (max-width: 1024px){/*for ¥­ªO*/
+@media only screen and (min-width: 720px) and (max-width: 1024px){/*for ï¿½ï¿½ï¿½O*/
     p{ 
         color:black;
         font-size: 10px;
@@ -31,5 +31,10 @@
     }
     body{
         background: green;
+    }
+}
+.a123{
+    txtFont {
+        font-family: 'runes', Verdana, Tahoma;
     }
 }

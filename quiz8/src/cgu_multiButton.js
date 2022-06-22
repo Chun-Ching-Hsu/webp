@@ -1,11 +1,5 @@
 
 import React from 'react';
-const styleArgument = {fontSize: '100px' , color: 'red'};
-
-// const changeText = (event)=>{
-//     console.log(event.target)
-//     event.target.innerText = event.target.innerText +"被點了?"
-// }
 
 let new_button = document.getElementById('root');
 new_button.addEventListener('click', function(e) {

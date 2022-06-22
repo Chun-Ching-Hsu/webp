@@ -5,7 +5,7 @@ function App() {
   return(
     <div className="App">
         {HelloCGU()}
-        { MultiButton(10)}
+        {MultiButton(10)}
     </div>
   );
 }

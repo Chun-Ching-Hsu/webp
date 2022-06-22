@@ -16,15 +16,3 @@ function LogIn(){
 }
 
 export default LogIn;
-// import './hw7.css';
-// function Login(){
-//        return(
-//             < div class='box'>
-//                 <h1>CGU Login</h1> 
-//                <h2>User name<input type='text' class='text'></input></h2>      
-//                <h2>Password<input type='text'class='text'></input></h2> 
-//                <div><button id="button" >登入</button></div>   
-//             </div >
-//        )       
-// }
-// export default Login;
